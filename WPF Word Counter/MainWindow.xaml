@@ -1,0 +1,13 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Word Counter" Height="300" Width="442" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Enter some text for counting:" Height="28" HorizontalAlignment="Left" Margin="8,8,0,0" Name="Label1" VerticalAlignment="Top" Width="180" />
+        <TextBox Height="190" HorizontalAlignment="Left" Margin="13,34,13,0" Name="txtWords" VerticalAlignment="Top" Width="390" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" TextWrapping="Wrap" />
+        <RadioButton Content="Chars" Height="16" HorizontalAlignment="Left" Margin="13,230,0,0" Name="radCountChars" VerticalAlignment="Top" Width="55" IsChecked="True" />
+        <RadioButton Content="Words" Height="16" HorizontalAlignment="Left" Margin="80,230,0,0" Name="radCountWords" VerticalAlignment="Top" Width="55" />
+        <Label Content="The results are:" Height="26" HorizontalAlignment="Left" Margin="140,226,0,0" Name="Label2" VerticalAlignment="Top" Width="100" />
+        <Label Height="26" HorizontalAlignment="Left" Margin="240,226,0,0" Name="lblResults" VerticalAlignment="Top" Width="175" />
+    </Grid>
+</Window>
